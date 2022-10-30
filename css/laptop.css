@@ -46,7 +46,7 @@ div.less-details {
   width: 200px;
   border-radius: 50%;
   position: absolute;
-  top: -250%;
+  top: -170%;
   left: 16%;
   z-index: 1;
 }
