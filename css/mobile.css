@@ -12,7 +12,15 @@
   .banner img {
     height: 450px;
   }
-
+  .name {
+    width: 100%;
+  }
+  .name h1 {
+    font-size: 40px;
+  }
+  .name span {
+    font-size: 20px;
+  }
   /*------------------------------------  Navbar ---------------------------------*/
   #nav-bar > .nav-item {
     border-left: none;
