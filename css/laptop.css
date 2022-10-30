@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.section-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div.less-details {
+  display: none;
+}
+/*------------------------------------Banner ---------------------------------*/
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+/*------------------------------------// Banner ---------------------------------*/
+/*------------------------------------Navbar ---------------------------------*/
+
+#nav-bar i {
+  color: #199cdb;
+}
+/* #nav-bar .nav-item {
+  border-left: whitesmoke 0.5px solid;
+  border-right: whitesmoke 0.5px solid;
+} */
+.image-avatar {
+  width: 300px;
+  position: relative;
+}
+.image-avatar .img-avatar {
+  border: white solid;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -250%;
+  left: 16%;
+  z-index: 1;
+}
+.image-avatar img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 95%;
+}
+/*------------------------------------ // Navbar ---------------------------------*/
+
+/*------------------------------------ Section: about ---------------------------------*/
+
+.hidden {
+  display: none;
+}
+#personal-info {
+  filter: brightness(95%);
+  background-color: whitesmoke;
+}
+
+#target {
+  background-color: whitesmoke;
+}
+#target p {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.info {
+  list-style: none;
+}
+.info li {
+  padding-bottom: 15px;
+}
+.info i {
+  color: #199cdb;
+}
+/*------------------------------------// Section : about ---------------------------------*/
+
+/*------------------------------------ Section : job-info  ---------------------------------*/
+
+#job-info h1 {
+  font-weight: lighter;
+}
+#job-info i {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+.info-exp {
+  list-style: none;
+}
+.info-exp li {
+  margin-top: 40px;
+  line-height: 1.5em;
+  background: url(https://www.computerhope.com/issues/pictures/bullet.gif)
+    no-repeat top left;
+  background-position: 0px 5px;
+  background-size: 8px;
+  padding: 0 0 4px 35px;
+}
+.info-exp span {
+  border: #199cdb solid;
+  border-radius: 5px;
+  background-color: #199cdb;
+  color: white;
+  padding: 0px 6px;
+}
+.info-skill {
+  list-style: none;
+  margin-top: 40px;
+}
+.info-skill li {
+  padding-bottom: 30px;
+}
+.blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.gray {
+  background: lightgray;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/*Icon hoppy*/
+
+#icon-hoppy {
+  border: #199cdb 1px solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#icon-hoppy i {
+  color: #199cdb;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.jinfo .more {
+  display: none;
+  font-size: 10px;
+}
+
+.jinfo:hover .more {
+  display: inline-block;
+}
+
+/*----------------------------------------- // Section : job-info ----------------------------------------- */
+
+/* ---------------------------------------- Certificate -------------------------------------------------- */
+.second-cert {
+  border-left: solid #ffc107 0.5px;
+}
+/* ---------------------------------------- //Certificate -------------------------------------------------- */
+
+/*----------------------------------------- Section : project ----------------------------------------- */
+
+.row3 span {
+  border: #199cdb solid;
+  border-radius: 25px;
+  background-color: #199cdb;
+  color: white;
+  padding: 3px 10px;
+}
+.row3 i {
+  font-size: 20px;
+}
+
+.table {
+  height: 300px;
+}
+/*----------------------------------------- Section : footer ----------------------------------------- */
+
+#footer ul li {
+  color: lightgray;
+}
+
+#footer ul li i {
+  font-size: 45px;
+  color: #199cdb;
+}
+/*----------------------------------------- //Section : footer -----------------------------------------*/

@@ -1,0 +1,76 @@
+/*Ipad ngang(1024 x 768)*/
+@media (min-width: 769px) and (max-width: 1200px) {
+  div.less-details {
+    display: none;
+  }
+  .banner {
+    height: 450px;
+  }
+  .banner img {
+    height: 450px;
+  }
+
+  /*------------------------------------ Navbar ---------------------------------*/
+  .image-avatar {
+    width: 50px;
+  }
+  .image-avatar .img-avatar {
+    display: none;
+  }
+  .image-avatar img {
+    visibility: hidden;
+  }
+
+  /*------------------------------------ // Navbar ---------------------------------*/
+  /*------------------------------------ Section: job-info ---------------------------------*/
+  .jinfo .more {
+    display: inline-block;
+  }
+
+  /*------------------------------------// Section: job-info ---------------------------------*/
+
+  /*------------------------------------ Section: project ---------------------------------*/
+  .table {
+    height: 400px;
+  }
+  .row2 {
+    height: 60px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  div.less-details {
+    display: none;
+  }
+  .banner {
+    height: 450px;
+  }
+  .banner img {
+    height: 450px;
+  }
+  /*------------------------------------  Navbar ---------------------------------*/
+  .image-avatar {
+    width: 50px;
+  }
+  .image-avatar .img-avatar {
+    display: none;
+  }
+  .image-avatar img {
+    visibility: hidden;
+  }
+  /*------------------------------------ // Navbar ---------------------------------*/
+  /*------------------------------------ Section: job-info ---------------------------------*/
+  .jinfo .more {
+    display: inline-block;
+  }
+
+  /*------------------------------------// Section: job-info ---------------------------------*/
+
+  /*------------------------------------ Section: project ---------------------------------*/
+  .table {
+    height: 400px;
+  }
+  .row2 {
+    height: 60px;
+  }
+}
